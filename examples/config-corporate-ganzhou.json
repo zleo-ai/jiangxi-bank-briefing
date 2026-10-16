@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "config_name": "赣州公司金融周报示例",
+  "audience": "corporate",
+  "regions": [
+    {
+      "name": "赣州市",
+      "parent": "江西省",
+      "level": "city"
+    },
+    {
+      "name": "南昌市",
+      "parent": "江西省",
+      "level": "city"
+    }
+  ],
+  "role_profile": {
+    "focus_directions": [
+      "稀土与有色金属产业链",
+      "新能源材料",
+      "重大产业项目节点"
+    ],
+    "key_questions": [
+      "项目处于备案、环评、用地、施工许可哪一阶段？",
+      "公告金额是何种口径？"
+    ],
+    "deprioritize": [
+      "文旅活动报道"
+    ]
+  },
+  "watch_pool": [
+    {
+      "id": "jxcopper",
+      "name": "江西铜业股份有限公司",
+      "type": "enterprise",
+      "aliases": [
+        "江西铜业"
+      ],
+      "region": "南昌市",
+      "tags": [
+        "有色金属",
+        "上市公司"
+      ],
+      "priority": "high",
+      "public_ok": true
+    },
+    {
+      "id": "ganfeng",
+      "name": "江西赣锋锂业集团股份有限公司",
+      "type": "enterprise",
+      "aliases": [
+        "赣锋锂业"
+      ],
+      "region": "新余市",
+      "tags": [
+        "新能源材料",
+        "上市公司"
+      ],
+      "priority": "high",
+      "public_ok": true,
+      "note": "注册地在新余，域外事项按any模式收录"
+    },
+    {
+      "id": "rare-earth",
+      "name": "稀土产业链政策",
+      "type": "policy",
+      "tags": [
+        "稀土"
+      ],
+      "public_ok": true
+    },
+    {
+      "id": "gz-edz",
+      "name": "赣州经济技术开发区",
+      "type": "park",
+      "region": "赣州市",
+      "public_ok": true
+    }
+  ],
+  "topics": [
+    "重大产业项目",
+    "有色金属"
+  ],
+  "scope_mode": "any",
+  "max_items": 15,
+  "presentation": {
+    "theme": "navy",
+    "layout": "standard"
+  }
+}

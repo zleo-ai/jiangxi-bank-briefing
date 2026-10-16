@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "daily",
+  "title": "江西政企研究简报 · 历史公开材料回放样例",
+  "status": "observation",
+  "audience": "regional",
+  "config_summary": "江西省全省；企业不限；制造业数智化；事后回溯样例，非2026年最新资讯，非历史时点还原",
+  "period": {
+    "start": "2024-12-25T00:00:00+08:00",
+    "end_exclusive": "2024-12-26T00:00:00+08:00",
+    "cutoff": "2026-10-15T17:19:41+08:00"
+  },
+  "coverage": {
+    "expected_days": 1,
+    "available_days": 1,
+    "gaps": [
+      "仅选取一条真实公开原文核验采集到渲染链路；未完成该历史日全渠道检索；不代表完整晨报"
+    ],
+    "method": "backfill_public",
+    "highlights": [
+      "仅选取一条真实公开原文演示采集到渲染链路，不代表该历史日的完整晨报。"
+    ]
+  },
+  "items": [
+    {
+      "id": "public-replay-001",
+      "event_key": "jiangxi-digital-benchmark-application-2025-notice",
+      "title": "2025年制造业数字化转型标杆申报通知（历史材料）",
+      "summary": "省工业和信息化厅、省财政厅公开通知，申报方向包括数字领航、小灯塔、数智工厂和国家数字化转型领域标杆。网页标注发文日期为2024年12月25日14:49，文件落款为2024年12月20日；本例按网页标注日期入窗。网页只精确到分钟，14:49:00的秒为编码补零。本例不表示2026年仍接受申报。",
+      "region": "江西省（上位全省政策）",
+      "enterprise": "",
+      "topic": "制造业数字化转型",
+      "published_at": "2024-12-25T14:49:00+08:00",
+      "event_date": "2024-12-20",
+      "sources": [
+        {
+          "name": "江西省工业和信息化厅：关于组织开展2025年制造业数字化转型标杆申报工作的通知",
+          "url": "https://gxt.jiangxi.gov.cn/jxsgyhxxht/xwdt/content/content_1946028337774927872.html",
+          "published_at": "2024-12-25T14:49:00+08:00",
+          "retrieved_at": "2026-10-15T17:19:41+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "仅展示可核实的通知内容和日期差异。是否有后续批次、政策替代或当前适用安排，需要在真实使用时重新核验，本样例不作现行政策判断。",
+      "section": "政府资讯 · 工业与信息化",
+      "publisher_type": "gov",
+      "theme": "制造业数智化",
+      "stage": "历史申报通知"
+    }
+  ],
+  "summary": {
+    "text": "历史通知列明数字领航、小灯塔、数智工厂等制造业数字化转型标杆申报方向；该材料仅用于回放通知内容，不能据此判断当前申报安排。",
+    "evidence_ids": [
+      "public-replay-001"
+    ]
+  },
+  "sections": []
+}

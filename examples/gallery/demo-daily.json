@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "kind": "daily",
+  "title": "江西政企研究晨报｜一线视角速读版演示（虚构数据）",
+  "issue": "演示第203期",
+  "status": "observation",
+  "audience": "relationship",
+  "config_summary": "虚构演示：示例省全省；企业不限；主题不限；地区命中。所有主体、数字与链接均为示例。",
+  "period": {
+    "start": "2026-10-14T00:00:00+08:00",
+    "end_exclusive": "2026-10-15T00:00:00+08:00",
+    "cutoff": "2026-10-15T07:00:00+08:00"
+  },
+  "coverage": {
+    "expected_days": 1,
+    "available_days": 1,
+    "method": "live_public",
+    "gaps": [
+      "演示：企业公告仅检索了两个交易所披露渠道，地市政府网站未全部检索。"
+    ],
+    "highlights": [
+      "本文件为虚构演示数据，仅用于预览速读版；观察稿表示覆盖不完整，不代表事实未核实。"
+    ]
+  },
+  "presentation": {
+    "layout": "compact",
+    "theme": "navy"
+  },
+  "items": [
+    {
+      "id": "demo-d-01",
+      "event_key": "demo-d-event-01",
+      "title": "示例省印发支持低空经济发展若干措施",
+      "summary": "示例省人民政府办公厅印发支持低空经济发展的若干措施，提出建设通用机场与起降点、开放应用场景和设立专项资金等12条措施，自印发之日起施行。（网页仅显示日期，10:00为编码占位。）",
+      "reader_summary": "示例省人民政府办公厅印发支持低空经济发展的若干措施，提出建设通用机场与起降点、开放应用场景和设立专项资金等12条措施，自印发之日起施行。",
+      "region": "示例省（全省适用）",
+      "enterprise": "",
+      "topic": "低空经济",
+      "published_at": "2026-10-14T10:00:00+08:00",
+      "event_date": "2026-10-14",
+      "sources": [
+        {
+          "name": "示例发布方：示例省印发支持低空经济发展若干措施",
+          "url": "https://example.com/demo-d/01",
+          "published_at": "2026-10-14T10:00:00+08:00",
+          "retrieved_at": "2026-10-15T06:40:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "关注各地市配套细则与专项资金申报通知的发布时间。",
+      "reader_analysis": "关注各地市配套细则与专项资金申报通知的发布时间。",
+      "section": "政府资讯 · 发展改革",
+      "publisher_type": "gov",
+      "theme": "低空经济",
+      "stage": "政策印发",
+      "priority": "high",
+      "pool_ids": [
+        "low-altitude"
+      ]
+    },
+    {
+      "id": "demo-d-02",
+      "event_key": "demo-d-event-02",
+      "title": "甲市生态环境局受理甲某化工技改项目环评",
+      "summary": "甲市生态环境局公示受理甲某化工有限公司（虚构）节能降碳技术改造项目环境影响报告书，项目不新增产能。受理不代表审批通过。",
+      "reader_summary": "甲市生态环境局公示受理甲某化工有限公司（虚构）节能降碳技术改造项目环境影响报告书，项目不新增产能。受理不代表审批通过。",
+      "region": "示例省甲市",
+      "enterprise": "甲某化工有限公司（虚构）",
+      "topic": "绿色低碳",
+      "published_at": "2026-10-14T15:30:00+08:00",
+      "event_date": "2026-10-14",
+      "sources": [
+        {
+          "name": "示例发布方：甲市生态环境局受理甲某化工技改项目环评",
+          "url": "https://example.com/demo-d/02",
+          "published_at": "2026-10-14T15:30:00+08:00",
+          "retrieved_at": "2026-10-15T06:40:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "后续关注拟批准公示与审批决定。",
+      "reader_analysis": "后续关注拟批准公示与审批决定。",
+      "section": "政府资讯 · 生态环境",
+      "publisher_type": "gov",
+      "theme": "绿色低碳",
+      "stage": "环评受理"
+    },
+    {
+      "id": "demo-d-03",
+      "event_key": "demo-d-event-03",
+      "title": "丙某智能公告中标乙市智慧交通项目",
+      "summary": "丙某智能股份有限公司（虚构）公告收到乙市智慧交通信号控制系统项目中标通知书，中标金额6,820万元，合同尚未签订。",
+      "reader_summary": "丙某智能股份有限公司（虚构）公告收到乙市智慧交通信号控制系统项目中标通知书，中标金额6,820万元，合同尚未签订。",
+      "region": "示例省乙市",
+      "enterprise": "丙某智能股份有限公司（虚构）",
+      "topic": "数字经济",
+      "published_at": "2026-10-14T18:05:00+08:00",
+      "event_date": "2026-10-13",
+      "sources": [
+        {
+          "name": "示例发布方：丙某智能公告中标乙市智慧交通项目",
+          "url": "https://example.com/demo-d/03",
+          "published_at": "2026-10-14T18:05:00+08:00",
+          "retrieved_at": "2026-10-15T06:40:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "关注合同签订公告与项目实施周期披露。",
+      "reader_analysis": "关注合同签订公告与项目实施周期披露。",
+      "section": "企业资讯 · 上市公司公告",
+      "publisher_type": "enterprise",
+      "theme": "数字经济",
+      "stage": "中标",
+      "pool_ids": [
+        "bing-zhineng"
+      ]
+    },
+    {
+      "id": "demo-d-04",
+      "event_key": "demo-d-event-04",
+      "title": "乙市新能源汽车零部件产业园二期主体结构封顶",
+      "summary": "两家相互独立的地方媒体报道乙市新能源汽车零部件产业园二期主体结构封顶，园区运营方表示预计明年一季度投用。投用时间为计划，尚无正式公告。",
+      "reader_summary": "两家相互独立的地方媒体报道乙市新能源汽车零部件产业园二期主体结构封顶，园区运营方表示预计明年一季度投用。投用时间为计划，尚无正式公告。",
+      "region": "示例省乙市",
+      "enterprise": "",
+      "topic": "先进制造",
+      "published_at": "2026-10-14T20:10:00+08:00",
+      "event_date": "2026-10-14",
+      "sources": [
+        {
+          "name": "示例日报：零部件产业园二期封顶",
+          "url": "https://example.com/news/d-04a",
+          "published_at": "2026-10-14T20:10:00+08:00",
+          "retrieved_at": "2026-10-15T06:40:00+08:00"
+        },
+        {
+          "name": "示例广电：乙市产业园建设进展",
+          "url": "https://example.com/news/d-04b",
+          "published_at": "2026-10-14T21:00:00+08:00",
+          "retrieved_at": "2026-10-15T06:40:00+08:00"
+        }
+      ],
+      "verification": "independent_verified",
+      "analysis": "投用计划待主管部门或运营方正式披露后再引用。",
+      "reader_analysis": "投用计划待主管部门或运营方正式披露后再引用。",
+      "section": "其他来源 · 媒体报道",
+      "publisher_type": "other",
+      "theme": "先进制造",
+      "stage": "主体封顶"
+    }
+  ],
+  "summary": {
+    "text": "示例省印发支持低空经济发展12条措施并自印发日起施行；丙某智能中标乙市智慧交通信号项目，合同尚未签订；甲某化工节能技改项目环评获受理。",
+    "evidence_ids": [
+      "demo-d-01",
+      "demo-d-03",
+      "demo-d-02"
+    ]
+  },
+  "watchlist": [
+    {
+      "text": "各地市低空经济配套细则与专项资金申报通知。",
+      "evidence_ids": [
+        "demo-d-01"
+      ]
+    }
+  ],
+  "focus": {
+    "directions": [
+      "政策申报窗口",
+      "招标与中标公告"
+    ]
+  },
+  "pool": [
+    {
+      "id": "bing-zhineng",
+      "name": "丙某智能股份有限公司（虚构）",
+      "type": "enterprise",
+      "priority": "high"
+    },
+    {
+      "id": "low-altitude",
+      "name": "低空经济政策",
+      "type": "policy",
+      "priority": "normal"
+    }
+  ]
+}

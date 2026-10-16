@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "daily",
+  "title": "江西政企研究晨报 · 空稿演示",
+  "status": "observation",
+  "audience": "regional",
+  "config_summary": "江西省赣州市；企业不限；主题不限；地区命中；此文件仅演示缺源处理，不含真实新闻",
+  "period": {
+    "start": "2026-10-14T00:00:00+08:00",
+    "end_exclusive": "2026-10-15T00:00:00+08:00",
+    "cutoff": "2026-10-15T07:00:00+08:00"
+  },
+  "coverage": {
+    "expected_days": 1,
+    "available_days": 0,
+    "gaps": [
+      "未进行公开采集；本文件只演示缺源观察稿"
+    ],
+    "method": "aggregate_only",
+    "highlights": [
+      "尚无公开采集记录，本文件只演示缺源观察稿。"
+    ]
+  },
+  "items": [],
+  "sections": []
+}

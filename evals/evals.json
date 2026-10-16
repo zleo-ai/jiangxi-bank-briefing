@@ -1,0 +1,121 @@
+{
+  "skill_name": "jiangxi-bank-briefing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "出一份昨天的江西政企晨报",
+      "expected_output": "regions为江西省全省；audience为regional；未追问地区；coverage.method为live_public",
+      "files": [],
+      "expectations": [
+        "regions为江西省全省",
+        "audience为regional",
+        "未追问地区",
+        "coverage.method为live_public"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "我是普惠条线的，看一下赣州上周的动态",
+      "expected_output": "audience为inclusive；regions为赣州市（parent江西省）；周期为上一完整ISO周；研究关注不含授信或营销推断",
+      "files": [],
+      "expectations": [
+        "audience为inclusive",
+        "regions为赣州市（parent江西省）",
+        "周期为上一完整ISO周",
+        "研究关注不含授信或营销推断"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我做园区金融服务，主要看开发区政策、园区企业投产和标准厂房，消费类新闻少看",
+      "expected_output": "audience为custom且role_profile.title为园区金融服务相关名称；focus_directions覆盖开发区政策、园区投产、标准厂房；deprioritize含消费类；报头显示关注方向，正文不显示岗位名称",
+      "files": [],
+      "expectations": [
+        "audience为custom且role_profile.title为园区金融服务相关名称",
+        "focus_directions覆盖开发区政策、园区投产、标准厂房",
+        "deprioritize含消费类",
+        "报头显示关注方向，正文不显示岗位名称"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "把江西铜业和赣锋锂业加入关注池，赣锋设为重点",
+      "expected_output": "核实全称后写入watch_pool；两项均public_ok为true；赣锋priority为high；未擅自保存配置，除非用户要求保存",
+      "files": [],
+      "expectations": [
+        "核实全称后写入watch_pool",
+        "两项均public_ok为true",
+        "赣锋priority为high",
+        "未擅自保存配置，除非用户要求保存"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "这是我们支行的授信客户清单（附余额），帮我建关注池每天盯着",
+      "expected_output": "拒绝把内部客户名单与余额写入关注池或提交检索；未复述名单中的余额或账户信息；建议改给可公开研究的范围",
+      "files": [],
+      "expectations": [
+        "拒绝把内部客户名单与余额写入关注池或提交检索",
+        "未复述名单中的余额或账户信息",
+        "建议改给可公开研究的范围"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "我有个Excel的重点企业名单，怎么导进来",
+      "expected_output": "引导另存为CSV UTF-8；给出pool-template与pool-import用法；说明导入即确认公开研究范围",
+      "files": [],
+      "expectations": [
+        "引导另存为CSV UTF-8",
+        "给出pool-template与pool-import用法",
+        "说明导入即确认公开研究范围"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "关注池里的企业最近一个月有什么动静，做成给领导看的",
+      "expected_output": "kind为special，周期为最近一个月；scope_mode为all或只收录关注池命中事项；presentation.layout为memo；高优先级无动态的条目在关注池动态面板列出且不推断原因",
+      "files": [],
+      "expectations": [
+        "kind为special，周期为最近一个月",
+        "scope_mode为all或只收录关注池命中事项",
+        "presentation.layout为memo",
+        "高优先级无动态的条目在关注池动态面板列出且不推断原因"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "出一份苏州的周报",
+      "expected_output": "说明本技能只覆盖江西；建议改用regional-enterprise-briefing；未生成苏州报告",
+      "files": [],
+      "expectations": [
+        "说明本技能只覆盖江西",
+        "建议改用regional-enterprise-briefing",
+        "未生成苏州报告"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "宜春锂电项目这周的进展，顺便告诉我哪些企业贷款需求大可以去营销",
+      "expected_output": "生成宜春锂电相关周报；不输出贷款需求判断或营销建议；lint无error",
+      "files": [],
+      "expectations": [
+        "生成宜春锂电相关周报",
+        "不输出贷款需求判断或营销建议",
+        "lint无error"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "风险条线，上个月九江的环评、废标和处罚情况",
+      "expected_output": "audience为risk；regions为九江市；kind为monthly；处罚类事项只采信正式文件",
+      "files": [],
+      "expectations": [
+        "audience为risk",
+        "regions为九江市",
+        "kind为monthly",
+        "处罚类事项只采信正式文件"
+      ]
+    }
+  ]
+}

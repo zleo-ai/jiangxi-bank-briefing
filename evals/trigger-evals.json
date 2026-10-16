@@ -1,0 +1,66 @@
+[
+  {
+    "query": "出一份江西昨天的政企晨报",
+    "should_trigger": true
+  },
+  {
+    "query": "我是公司金融条线，看下赣州本周重大项目",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我维护一下关注池，加两家企业",
+    "should_trigger": true
+  },
+  {
+    "query": "关注池里的园区这个月有什么动态",
+    "should_trigger": true
+  },
+  {
+    "query": "把这份江西政企周报导出长图",
+    "should_trigger": true
+  },
+  {
+    "query": "我做绿色金融，看下江西新能源项目环评进展",
+    "should_trigger": true
+  },
+  {
+    "query": "九江上个月的招标中标公告汇总",
+    "should_trigger": true
+  },
+  {
+    "query": "江西出了哪些专精特新支持政策，按周汇总",
+    "should_trigger": true
+  },
+  {
+    "query": "出一份长三角的招商周报",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我审批这笔贷款",
+    "should_trigger": false
+  },
+  {
+    "query": "写一封给客户的营销短信",
+    "should_trigger": false
+  },
+  {
+    "query": "分析某只股票的买点",
+    "should_trigger": false
+  },
+  {
+    "query": "把这个Excel的数据做成透视表",
+    "should_trigger": false
+  },
+  {
+    "query": "查一下某人的征信记录",
+    "should_trigger": false
+  },
+  {
+    "query": "翻译这份英文年报",
+    "should_trigger": false
+  },
+  {
+    "query": "今天南昌天气怎么样",
+    "should_trigger": false
+  }
+]

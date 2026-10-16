@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "kind": "special",
+  "title": "重点项目专题追踪｜授信审批视角要报版演示（虚构数据）",
+  "issue": "专题演示第3期",
+  "status": "formal",
+  "audience": "credit_approval",
+  "config_summary": "虚构演示：示例省乙市；重点企业乙某新材料有限公司（虚构）；主题新能源与储能；地区且企业命中。所有主体、数字与链接均为示例。",
+  "period": {
+    "start": "2026-07-01T00:00:00+08:00",
+    "end_exclusive": "2026-10-01T00:00:00+08:00",
+    "cutoff": "2026-10-08T10:00:00+08:00"
+  },
+  "coverage": {
+    "expected_days": 92,
+    "available_days": 92,
+    "gaps": [],
+    "method": "backfill_public",
+    "highlights": [
+      "本文件为虚构演示数据，仅用于预览要报版与专题简报结构。"
+    ]
+  },
+  "presentation": {
+    "layout": "memo",
+    "theme": "ink"
+  },
+  "items": [
+    {
+      "id": "demo-s-01",
+      "event_key": "demo-s-event-01",
+      "title": "乙市与乙某新材料签约年产2万吨正极材料项目",
+      "summary": "乙市投资促进部门发布消息，与乙某新材料签订年产2万吨电池正极材料项目投资协议，协议计划总投资35亿元，分两期建设。",
+      "reader_summary": "乙市投资促进部门发布消息，与乙某新材料签订年产2万吨电池正极材料项目投资协议，协议计划总投资35亿元，分两期建设。",
+      "region": "示例省乙市",
+      "enterprise": "乙某新材料有限公司（虚构）",
+      "topic": "新能源与储能",
+      "published_at": "2026-07-08T16:00:00+08:00",
+      "event_date": "2026-07-08",
+      "sources": [
+        {
+          "name": "示例发布方：乙市与乙某新材料签约年产2万吨正极材料项目",
+          "url": "https://example.com/demo-s/01",
+          "published_at": "2026-07-08T16:00:00+08:00",
+          "retrieved_at": "2026-10-08T10:00:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "签约为意向与计划口径，需以项目备案和用地文件核实落地进度。",
+      "reader_analysis": "签约为意向与计划口径，需以项目备案和用地文件核实落地进度。",
+      "section": "政府资讯 · 招商投资",
+      "publisher_type": "gov",
+      "theme": "新能源与储能",
+      "stage": "签约",
+      "pool_ids": [
+        "yi-project"
+      ]
+    },
+    {
+      "id": "demo-s-02",
+      "event_key": "demo-s-event-02",
+      "title": "乙某新材料正极材料项目完成备案",
+      "summary": "投资项目在线审批监管平台公示乙某新材料年产2万吨正极材料项目备案信息，备案总投资35亿元，建设地点为乙市化工园区。",
+      "reader_summary": "投资项目在线审批监管平台公示乙某新材料年产2万吨正极材料项目备案信息，备案总投资35亿元，建设地点为乙市化工园区。",
+      "region": "示例省乙市",
+      "enterprise": "乙某新材料有限公司（虚构）",
+      "topic": "新能源与储能",
+      "published_at": "2026-07-30T09:00:00+08:00",
+      "event_date": "2026-07-29",
+      "sources": [
+        {
+          "name": "示例发布方：乙某新材料正极材料项目完成备案",
+          "url": "https://example.com/demo-s/02",
+          "published_at": "2026-07-30T09:00:00+08:00",
+          "retrieved_at": "2026-10-08T10:00:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "备案金额与签约口径一致，后续以用地与环评文件跟踪。",
+      "reader_analysis": "备案金额与签约口径一致，后续以用地与环评文件跟踪。",
+      "section": "政府资讯 · 发展改革",
+      "publisher_type": "gov",
+      "theme": "新能源与储能",
+      "stage": "项目备案",
+      "pool_ids": [
+        "yi-project"
+      ]
+    },
+    {
+      "id": "demo-s-03",
+      "event_key": "demo-s-event-03",
+      "title": "乙市化工园区一宗工业用地由乙某新材料竞得",
+      "summary": "乙市公共资源交易平台公示一宗工业用地出让结果，竞得人为乙某新材料，面积约18万平方米，成交价9,360万元。",
+      "reader_summary": "乙市公共资源交易平台公示一宗工业用地出让结果，竞得人为乙某新材料，面积约18万平方米，成交价9,360万元。",
+      "region": "示例省乙市",
+      "enterprise": "乙某新材料有限公司（虚构）",
+      "topic": "新能源与储能",
+      "published_at": "2026-08-21T17:20:00+08:00",
+      "event_date": "2026-08-20",
+      "sources": [
+        {
+          "name": "示例发布方：乙市化工园区一宗工业用地由乙某新材料竞得",
+          "url": "https://example.com/demo-s/03",
+          "published_at": "2026-08-21T17:20:00+08:00",
+          "retrieved_at": "2026-10-08T10:00:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "用地成交价与项目投资属不同口径，不相加；关注施工许可。",
+      "reader_analysis": "用地成交价与项目投资属不同口径，不相加；关注施工许可。",
+      "section": "政府资讯 · 自然资源",
+      "publisher_type": "gov",
+      "theme": "新能源与储能",
+      "stage": "用地出让成交",
+      "pool_ids": [
+        "yi-project"
+      ]
+    },
+    {
+      "id": "demo-s-04",
+      "event_key": "demo-s-event-04",
+      "title": "乙某新材料项目环评报告书获受理",
+      "summary": "乙市生态环境局公示受理乙某新材料年产2万吨正极材料项目环境影响报告书，公众可在10个工作日内提出意见。",
+      "reader_summary": "乙市生态环境局公示受理乙某新材料年产2万吨正极材料项目环境影响报告书，公众可在10个工作日内提出意见。",
+      "region": "示例省乙市",
+      "enterprise": "乙某新材料有限公司（虚构）",
+      "topic": "新能源与储能",
+      "published_at": "2026-09-12T10:30:00+08:00",
+      "event_date": "2026-09-12",
+      "sources": [
+        {
+          "name": "示例发布方：乙某新材料项目环评报告书获受理",
+          "url": "https://example.com/demo-s/04",
+          "published_at": "2026-09-12T10:30:00+08:00",
+          "retrieved_at": "2026-10-08T10:00:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "下一节点为拟批准公示；受理不代表审批通过。",
+      "reader_analysis": "下一节点为拟批准公示；受理不代表审批通过。",
+      "section": "政府资讯 · 生态环境",
+      "publisher_type": "gov",
+      "theme": "新能源与储能",
+      "stage": "环评受理",
+      "priority": "high",
+      "pool_ids": [
+        "yi-project"
+      ]
+    },
+    {
+      "id": "demo-s-05",
+      "event_key": "demo-s-event-05",
+      "title": "乙某新材料母公司董事会通过定增预案",
+      "summary": "乙某新材料控股母公司公告董事会审议通过向特定对象发行股票预案，拟募集资金不超过10亿元，主要投向乙市正极材料项目一期，尚需股东大会审议及监管审核。",
+      "reader_summary": "乙某新材料控股母公司公告董事会审议通过向特定对象发行股票预案，拟募集资金不超过10亿元，主要投向乙市正极材料项目一期，尚需股东大会审议及监管审核。",
+      "region": "示例省乙市",
+      "enterprise": "乙某新材料有限公司（虚构）",
+      "topic": "产业金融与资本市场",
+      "published_at": "2026-09-26T19:30:00+08:00",
+      "event_date": "2026-09-26",
+      "sources": [
+        {
+          "name": "示例发布方：乙某新材料母公司董事会通过定增预案",
+          "url": "https://example.com/demo-s/05",
+          "published_at": "2026-09-26T19:30:00+08:00",
+          "retrieved_at": "2026-10-08T10:00:00+08:00"
+        }
+      ],
+      "verification": "primary_verified",
+      "analysis": "募资上限与项目投资为不同口径；关注股东大会与审核进度。",
+      "reader_analysis": "募资上限与项目投资为不同口径；关注股东大会与审核进度。",
+      "section": "企业资讯 · 上市公司公告",
+      "publisher_type": "enterprise",
+      "theme": "产业金融与资本市场",
+      "stage": "董事会审议通过",
+      "pool_ids": [
+        "yi-project"
+      ]
+    }
+  ],
+  "summary": {
+    "text": "乙某新材料年产2万吨正极材料项目三个月内完成签约、备案和用地竞得，9月环评报告书获受理，尚未进入拟批准公示；母公司同步推出不超过10亿元定增预案，仍待股东大会与监管审核。",
+    "evidence_ids": [
+      "demo-s-01",
+      "demo-s-02",
+      "demo-s-03",
+      "demo-s-04",
+      "demo-s-05"
+    ]
+  },
+  "key_figures": [
+    {
+      "label": "备案总投资",
+      "value": "35亿元",
+      "note": "投资项目备案口径",
+      "evidence_ids": [
+        "demo-s-02"
+      ]
+    },
+    {
+      "label": "工业用地",
+      "value": "约18万㎡",
+      "note": "出让结果公示口径",
+      "evidence_ids": [
+        "demo-s-03"
+      ]
+    },
+    {
+      "label": "拟募资上限",
+      "value": "10亿元",
+      "note": "董事会预案口径，尚待审议审核",
+      "evidence_ids": [
+        "demo-s-05"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "heading": "项目进展：前期手续推进较快，环评为当前关键节点",
+      "body": "7月8日签约、7月30日备案、8月21日用地成交、9月12日环评受理，四个节点均有一手公示。同一项目的手续依次推进，但施工许可与开工尚无公开文件，不能表述为“已开工”。",
+      "evidence_ids": [
+        "demo-s-01",
+        "demo-s-02",
+        "demo-s-03",
+        "demo-s-04"
+      ]
+    },
+    {
+      "heading": "资金安排：募资与投资口径需分开看",
+      "body": "定增预案拟募资上限10亿元，投向项目一期；备案总投资35亿元为两期合计。两者口径不同，不相加，也不能据此推断剩余资金缺口。",
+      "evidence_ids": [
+        "demo-s-02",
+        "demo-s-05"
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "text": "环评拟批准公示及审批决定公开时间。",
+      "evidence_ids": [
+        "demo-s-04"
+      ]
+    },
+    {
+      "text": "项目施工许可或开工公告。",
+      "evidence_ids": [
+        "demo-s-03"
+      ]
+    },
+    {
+      "text": "定增预案的股东大会表决结果。",
+      "evidence_ids": [
+        "demo-s-05"
+      ]
+    }
+  ],
+  "focus": {
+    "title": "授信审批（演示）",
+    "directions": [
+      "项目手续完整性",
+      "金额口径与反证"
+    ]
+  },
+  "pool": [
+    {
+      "id": "yi-project",
+      "name": "乙某新材料正极材料项目（虚构）",
+      "type": "project",
+      "priority": "high"
+    }
+  ]
+}

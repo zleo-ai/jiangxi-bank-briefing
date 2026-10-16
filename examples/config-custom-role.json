@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "config_name": "自定义岗位示例",
+  "audience": "custom",
+  "role_profile": {
+    "title": "园区金融服务专员",
+    "focus_directions": [
+      "开发区与产业园区政策",
+      "园区内企业投产与技改",
+      "标准厂房与基础设施"
+    ],
+    "key_questions": [
+      "园区新增了哪些公开的入驻、投产或技改项目？"
+    ],
+    "deprioritize": [
+      "个人消费类新闻"
+    ]
+  },
+  "watch_pool": [
+    {
+      "id": "nc-hitech",
+      "name": "南昌高新技术产业开发区",
+      "type": "park",
+      "aliases": [
+        "南昌高新区"
+      ],
+      "region": "南昌市",
+      "priority": "high",
+      "public_ok": true
+    },
+    {
+      "id": "park-policy",
+      "name": "开发区改革与高质量发展政策",
+      "type": "policy",
+      "public_ok": true
+    }
+  ],
+  "scope_mode": "any",
+  "presentation": {
+    "layout": "compact"
+  }
+}

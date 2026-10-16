@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "config_name": "风险管理月报示例",
+  "audience": "risk",
+  "role_profile": {
+    "focus_directions": [
+      "环评与审批阶段变化",
+      "废标与项目终止",
+      "监管处罚与司法公开文件"
+    ],
+    "key_questions": [
+      "是否有正式文件支持负面事项？",
+      "不同金额口径是否已区分？"
+    ]
+  },
+  "source_types": [
+    "gov",
+    "enterprise"
+  ],
+  "presentation": {
+    "layout": "memo",
+    "theme": "ink"
+  }
+}
